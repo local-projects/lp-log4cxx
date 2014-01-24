@@ -22,8 +22,9 @@ OS X Xcode Usage:
 - Select your project's "Build Settings", "Header Search Path", and add the path to the log4cxx/include directory
 
 Windows Visual Studio 2012 Usage:
-
-- To use the static link log4cxx library, the macro LOG4CXX_STATIC
+- "Project Properties" -> "C/C++" -> "Additional Include Directories" add the include directory
+- "Project Properties" -> "Linker" -> "Input" add the libs, such as "log4cxx\msw\debug\apr.lib" 
+- log4cxx claims to use the static link log4cxx library, the macro LOG4CXX_STATIC must be defined, but I have not found this to be true.
 
 
 
