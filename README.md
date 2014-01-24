@@ -6,6 +6,8 @@ We have not modified this code, and all of this code belongs to the apache-log4c
 
 Currently tested on cinder 0.8.5 for Xcode 4.5 + Windows 7 Visual Studio 2010
 
+Nuances on how it works can be found at
+https://logging.apache.org/log4cxx/
 
 USING THESE LIBRARIES:
 ======
